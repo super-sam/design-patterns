@@ -55,9 +55,33 @@ Parking Lot
 - Park Vehicle
 
 ### Parking Agent
-- 
+- Update Account
+- Login/Logout
+- View account
+- Take ticket
+- Scan ticket
+- Pay Ticket
+- Cash
+- Credit Card
+- Park Vehicle
 
+## System
+- Assign parking spots to vehicles
+- Remove Spot
+- Show full
+- Show Available
 
+# Relationships
+- ## Generalization
+  - Parking Agent --|> Customer
+  - Cash | Credit Card --|> Pay ticket
+
+- ## Associations
+  |Admin | Customer | Parking Agent | System|
+  |--|--|--|--|
+  |Add Spot| Take ticket|Update Account|Assign Parking spots to vehicles|
+  |Add Agent | | | |
+  |Add/Modify Rate | | | |
 
 
 
