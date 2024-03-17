@@ -1,6 +1,7 @@
 # Factory Design Pattern
 A component responsible solely for the wholesale (not piecewise) creation of the objects.
 
+## Why?
 
 ## When to Implement?
 1. When you don’t know beforehand the exact types and dependencies of the objects your code should work with.

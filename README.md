@@ -8,8 +8,8 @@ Design_Patterns --> Behavioural
   
 ## Creational 
 Flexibility to create objects.  
-- **Factory** : It provides a template. Where the type of obj required varies and need to be specidfied.   
-- **Abstract Factory** : Similar to factory. It provides a constructor to create families of related object.
+- **Factory** : It provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created. It provides a template. Where the type of obj required varies and need to be specidfied.   
+- **Abstract Factory** : Similar to factory. Lets you produce families of related objects without specifying their concrete classes.
 - **Builder** : Build complex objects using simpler objects flexible and step by step approach. sheilds represenration from process of creation 
 - **Prototype**: Instanciate obj with some default value from exiting object. Clones the object.  
 - **Singleton**: Single instance on an object
